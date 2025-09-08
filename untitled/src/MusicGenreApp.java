@@ -19,5 +19,9 @@ public class MusicGenreApp {
         rapButton.setFocusPainted(false);
         JButton gospelButton = new JButton("Gospel Music");
         gospelButton.setBackground(new Color(34, 139, 34));
+        gospelButton.setForeground(Color.WHITE);
+        gospelButton.setBorderPainted(false);
+        gospelButton.setFocusPainted(false);
+
     }
 }
