@@ -14,6 +14,8 @@ public class MusicGenreApp {
         frame.add(titleLabel, BorderLayout.NORTH);
         JButton rapButton = new JButton("Rap Music");
         rapButton.setBackground(Color.BLACK);
+        rapButton.setForeground(Color.WHITE);
+        rapButton.setBorderPainted(false);
 
     }
 }
