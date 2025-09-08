@@ -27,6 +27,17 @@ public class MusicGenreApp {
         balladsButton.setForeground(Color.WHITE);
         balladsButton.setBorderPainted(false);
         balladsButton.setFocusPainted(false);
+        frame.add(rapButton, BorderLayout.SOUTH);
+        frame.add(gospelButton, BorderLayout.WEST);
+        frame.add(balladsButton, BorderLayout.EAST);
+        rapButton.addActionListener(e ->
+                JOptionPane.showMessageDialog(frame, "You selected Rap Music!"));
+        gospelButton.addActionListener(e ->
+                JOptionPane.showMessageDialog(frame, "You selected Gospel Music!"));
+        balladsButton.addActionListener(e ->
+                JOptionPane.showMessageDialog(frame, "You selected Ballads Music!"));
+
+        frame.setVisible(true);
 
     }
 }
