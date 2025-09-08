@@ -10,5 +10,8 @@ public class MusicGenreApp {
         frame.setLayout(new BorderLayout());
         frame.setLocationRelativeTo(null);
         JLabel titleLabel = new JLabel("My Music Genre", JLabel.CENTER);
+        titleLabel.setFont(new Font("Arial", Font.BOLD, 20));
+        frame.add(titleLabel, BorderLayout.NORTH);
+
     }
 }
