@@ -22,6 +22,11 @@ public class MusicGenreApp {
         gospelButton.setForeground(Color.WHITE);
         gospelButton.setBorderPainted(false);
         gospelButton.setFocusPainted(false);
+        JButton balladsButton = new JButton("Ballads Music");
+        balladsButton.setBackground(new Color(70, 130, 180)); // steel blue
+        balladsButton.setForeground(Color.WHITE);
+        balladsButton.setBorderPainted(false);
+        balladsButton.setFocusPainted(false);
 
     }
 }
