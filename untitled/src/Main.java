@@ -3,3 +3,6 @@ public class Main {
         new MusicGenreApp().metod();
     }
 }
+
+
+
